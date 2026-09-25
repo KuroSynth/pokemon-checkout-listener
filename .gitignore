@@ -1,0 +1,26 @@
+# Secrets / environment
+.env
+.env.*
+*.secret
+*.secrets
+
+# Local ntfy config
+ntfy_topic.txt
+
+# Telegram / session data
+*.session
+*.session-journal
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
